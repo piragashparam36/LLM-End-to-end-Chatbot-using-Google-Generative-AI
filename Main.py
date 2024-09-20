@@ -1,20 +1,3 @@
-# import streamlit as st
-# from app import run_chatbot  # Assuming you have a function to run the chatbot
-# from vision import run_chatbot_with_image  # Assuming you have a function for the image chatbot
-
-# def main():
-#     st.sidebar.title("Menu")
-#     option = st.sidebar.selectbox("Select a section", ["Chatbot", "Chatbot with Image"])
-
-#     if option == "Chatbot":
-#         run_chatbot()  # Function to run your chatbot app
-#     elif option == "Chatbot with Image":
-#         run_chatbot_with_image()  # Function to run your image chatbot app
-
-# if __name__ == "__main__":
-#     main()
-
-
 import streamlit as st
 from app import run_chatbot  # Import chatbot logic from app.py
 from vision import run_chatbot_with_image  # Import chatbot with image logic from vision.py
